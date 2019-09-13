@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		T&iacute;tulo de la p&aacute;gina
+	</title>
+</head>
+<body>
+	<h1>ENCABEZADO DE MI PAGINA</h1>
+	
+	----------------------------------
+	ESTA ES UNA MODFICACION EN MI RAMA
+	OTRA MODIFICACION :))))
+	----------------------------------
+
+	<b>Hola mundo Web</b>  <br>
+	<i>L&iacute;nea dentro de la p&aacute;gina</i>  <br>
+	<u>Esta l&iacute;nea no respeta el enter </u><br>
+	<p>
+	Esta tampoco, pero este otro p&aacute;rrafo <br>
+	La letra &ntilde; a veces y otras no
+	<marquee>
+		Esta etiqueta no la usen por favor
+	</marquee>
+
+	Encabezados <br>
+	
+
+	LISTAS <br>
+	Lista ordenada <br>
+	<ol>
+		<li>Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+	</ol>
+
+	Lista Desordenada <br>
+	<ul>
+		<li>Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+	</ul>
+
+	Regla Horizontal
+	<hr>
+
+	Enlaces a otras p&aacute;ginas <br>
+
+	<a href="https://itculiacan.edu.mx" target="_blank">
+		Texto que me lleva a otra p&aacute;gina
+	</a>
+
+	<br>
+	<!-- Imgenes desde una URL <br>
+
+	<img src="https://image.shutterstock.com/image-vector/stylized-giant-panda-full-body-260nw-1203248176.jpg" alt="Pandita bonito" > -->
+	Desde archivo <br>
+
+	<img src="img pw/pandabb1.webp" alt="panda2">
+<br>
+	Tablas <br>
+	<table border="3">
+		<caption>De que se trata la tabla</caption>
+		<thead>
+			<tr>
+				<th>No. Control</th>
+				<th>Nombre</th>
+				<th>Apellido Paterno</th>
+				<th>Apellido Materno</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>15171119</td>
+				<td>Sabine</td>
+				<td>F&eacute;lix</td>
+				<td rowspan="3">F&eacute;lix</td>
+				<!-- <td colspan="2">F&eacute;lix</td> -->
+			</tr>
+			<tr>
+				<td>15171114</td>
+				<td>Luis</td>
+				<td>Espinoza</td>
+			</tr>
+			<tr>
+				<td>15171114</td>
+				<td>Luis Sergio</td>
+				<td>Espinoza</td>
+			</tr>
+		</tbody>
+	</table>
+
+<br>Formularios <br>
+
+<!-- methot>: Get se mandan mediante la URL, method: post se mandan sin mostrarse en la URL(la mejor opcion) -->
+	<form action="procesa.html" method="post">
+<!-- PONER CONTRASE;A TIPO PASSWORD Y METHOD POST POR DISCRECION -->
+		<input type="text" name="usuario">
+		<input type="password" name="clave">
+
+		<select name="Genero" id="Genero">
+			<option value="-1">SELECCIONE UNA OPCI&Oacute;N</option>
+			<option value="f">FEMENINO</option>
+			<option value="m">MASCULINO</option>
+		</select>
+		<!-- <input type="button" value="aceptar"> -->
+		<!-- PRIMER HUECO DE SEGURIDAD: NO HACER RESPALDOS DDENTRO DE TU WEB. -->
+		<input type="submit" value="Enviar">
+
+	</form>
+
+</body>
+</html>
