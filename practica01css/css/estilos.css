@@ -1,0 +1,21 @@
+/*
+selectores
+	pseudoelememto
+	etiqueta{
+		atributo:valor;
+	}
+	id
+	class
+	media query
+
+ancho recomenado para las paginas 1024 px
+
+	*/
+
+	body
+	{
+		border: 1px solid red;
+		margin: 0px auto;
+
+		max-width: 1024px;
+	}

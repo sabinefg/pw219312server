@@ -3,11 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Práctica01 HTML5 + CSS3</title>
+	<!-- CONECTAR NUESTRA PAGINA CON CSS -->
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/resplandor.png" alt="">
-		<img src="img/logo.png" alt="">
+		<img src="img/logo.png" alt="" id="logo">
 		<nav>
 			<ul>
 				<li>Inicio</li>
@@ -25,18 +27,18 @@
 		</nav>
 	</header>
 
-	<section>
+	<section id="sección01">
 		<article>
 			<img src="img/slide2.jpg">
 
 		</article>
 	</section>
 
-	<section>
+	<section id="sección02">
 		<article>
 			<img src="img/separador.jpg"> 
 			<br>
-			<h2>Una Sección</h2>
+			<span class="unaSección nito">Una Sección</span>
 			<br>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -63,11 +65,17 @@
 		<article>
 			<img src="img/separador.jpg"> 
 			<br>
-			<h2>Otra sección</h2>
+			<span class="otraSección nito">Otra sección</span>
 			<br>
-			I am Groot. I am Groot. I am Groot. We are Groot. I am Groot. We are Groot. I am Groot. We are Groot. We are Groot. I am Groot. We are Groot. I am Groot. I am Groot. I am Groot. I am Groot. We are Groot. I am Groot. We are Groot. I am Groot. I am Groot. We are Groot. I am Groot. I am Groot. I am Groot. We are Groot. 
+			I am Groot. I am Groot. I am Groot. We are Groot. I am Groot. We are Groot. I am Groot. 
+			We are Groot. We are Groot. I am Groot. We are Groot. I am Groot. I am Groot. I am Groot. 
+			I am Groot. We are Groot. I am Groot. We are Groot. I am Groot. I am Groot. We are Groot. 
+			I am Groot. I am Groot. I am Groot. We are Groot. 
 			<p></p>
-			We are Groot. We are Groot. I am Groot. We are Groot. We are Groot. I am Groot. I am Groot. I am Groot. We are Groot. I am Groot. I am Groot. We are Groot. I am Groot. I am Groot. I am Groot. We are Groot. I am Groot. I am Groot. I am Groot. We are Groot. I am Groot. We are Groot. We are Groot. I am Groot. I am Groot. 
+			We are Groot. We are Groot. I am Groot. We are Groot. We are Groot. I am Groot. I am Groot.
+			 I am Groot. We are Groot. I am Groot. I am Groot. We are Groot. I am Groot. I am Groot.
+			  I am Groot. We are Groot. I am Groot. I am Groot. I am Groot. We are Groot. I am Groot. 
+			  We are Groot. We are Groot. I am Groot. I am Groot. 
 			<p></p>
 
 			<input type="submit" value="Ver más">
@@ -76,7 +84,7 @@
 		<article>
 			<img src="img/separador.jpg"> 
 			<br>
-			Un vídeo
+			<span class="otraSección nito">Un vídeo</span>
 			<br>
 			<img src="img/video.jpg">
 		</article>
