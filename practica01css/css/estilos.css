@@ -19,3 +19,54 @@ ancho recomenado para las paginas 1024 px
 
 		max-width: 1024px;
 	}
+
+	header
+	{
+		background:#c8dfea;
+	}
+	
+	
+
+	header nav
+	{
+		background: #0070c5;
+		border-radius: 5px;
+		margin: 0px auto;
+		padding: 2px 0px;
+		width: 99%;
+	}
+
+
+	header nav ul li
+	{
+		/*border:1px solid blue;*/
+		display: inline-block;
+		margin-right: 20px;
+		color:white;
+	}
+
+	header nav form
+	{
+		float:right;
+		margin-top: -30px;
+		margin-right: 20px;
+	}
+
+	header nav form input
+	{
+		border-radius: 5px;
+	}
+
+	header nav form input[type="button"]
+	{
+		background: #60b146;
+		color:white;
+		border: 1px solid #60b146;
+	}
+
+	#logo
+	{
+
+		margin-top:-150px;
+
+	}
