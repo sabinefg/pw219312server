@@ -14,7 +14,8 @@ ancho recomenado para las paginas 1024 px
 
 	body
 	{
-		border: 1px solid red;
+		font-size: 16px;
+		/*border: 1px solid red;*/
 		margin: 0px auto;
 
 		max-width: 1024px;
@@ -70,3 +71,52 @@ ancho recomenado para las paginas 1024 px
 		margin-top:-150px;
 
 	}
+
+	#sección01{
+		margin-top:15px;
+	}
+
+	#sección01 article
+	{
+		text-align:center;
+	}
+
+	#sección01 article img
+	{
+		border:5px solid rgba(150,150,150,0.5);
+
+		width:98%;
+	}
+
+	#sección02 article
+	{
+		width: 32.8%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.nito
+	{
+		font-weight: bold;
+	}
+
+	.unaSección
+	{
+		font-size: 4.5em;
+	}
+
+	.otraSección
+	{
+		font-size: 2.5em;
+	}
+
+	#sección02 article input[type="submit"]
+	{
+		background: white;
+		color: blue;
+		padding: 3px;
+		margin-left: 130px;
+		border-radius: 5px;
+	}
+
+
