@@ -1,15 +1,165 @@
-
-
 body
 {
 	font-size: 16px;
 	margin:0px auto;
-	max-width: 1024px;
-	min-width: 1024px;
+	max-width: 1324px;
+	min-width: 1324px;
 }
 
-header nav ul 
+header
+{
+	border-bottom: 3px gray dashed;
+	height: 260px;
+}
+
+header nav ul li
 {
 	display: inline-block;
 	list-style: none;
+	padding: 5px;
+	margin-top: 40px;
+	font-size: 1.7em;
+}
+header img{
+	margin-top: 13px;
+}
+section article {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#firstBike
+{
+	margin-left: 50px;
+	margin-top: 40px;
+
+}
+
+#logoRojo
+{
+	float: right;
+	margin-right: 10px;
+}
+
+#bandera{
+	float: right;
+	margin-right: 10px;
+}
+
+#mundo
+{
+	float: right;
+	margin-right: 10px;
+}
+
+#buy
+{
+	position: relative;
+	left: 850px;
+	bottom:120px;
+	width: 90px;
+	height: 90px;
+}
+
+#goToShop
+{
+	position: relative;
+	left:850px;
+	bottom:180px;
+}
+
+#article01
+{
+	font-family: "LilyUPC";
+	margin-left: 20px;
+	max-width: 710px;
+	min-width: 710px;
+}
+#articleVideos img{
+	max-width: 328px;
+	min-width: 328px;
+	padding-right: 20px;
+}
+#articleVideos{
+	margin-top: 20px;
+	max-width: 700px;
+}
+#bike{
+	padding-left: 30px;
+	max-height: 610px;
+	min-height: 610px;
+}
+#fiveYears{
+	position: relative;
+	top: -130px;
+	left: -30px;
+
+}
+#articleVideos img{
+	margin-top: 20px;
+}
+#article02{
+	margin-left: 50px;
+	max-width: 40%;
+	min-width: 40%;
+	max-height: 647px;
+	min-height: 647px;
+
+	
+}
+#linea{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom-style: dashed ;
+	border-bottom-width: 3px;
+	border-bottom-color: gray;
+}
+.verdefeo
+{
+	color: rgb(115, 243, 61);
+}
+
+.nito
+{
+	font-weight: bold;	
+}
+
+.grande
+{
+	font-size: 5.2em;
+	font-family: "Arial";
+}
+
+.grisClaro
+{
+	color: rgb(136, 136, 136);
+}
+
+.chico
+{
+	font-size: 1.4em;
+}
+
+.fuente01
+{
+	font-family: "calibri";
+}
+#lineaFooter{
+	margin-top: 4px;
+	border-bottom-style: solid;
+	border-bottom-width: 1.5px;
+	border-bottom-color: lightgray;
+}
+footer article
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+	font-size: 1.4em;
+	margin-left: -10px;
+	margin-right: 52px;
+}
+footer{
+	margin-left:20px;
+	color:rgba(127, 127, 127, 1);;
 }
