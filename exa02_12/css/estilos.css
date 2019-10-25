@@ -1,0 +1,131 @@
+
+body
+{
+	font-size: 16px;
+	margin:0px auto;
+	max-width: 1024px;
+	min-width: 1024px;
+
+	max-height: 1328px;
+	min-height: 1328px;
+
+}
+
+section article
+{
+	display: inline-block;
+
+}
+
+footer article
+{
+	display: inline-block;
+	height: 200px;
+	vertical-align: top;
+}
+
+
+#secArt01
+{
+	border: 1px red solid;
+	background: #f1efef;
+	width: 60%;
+	height: 300px;
+}
+
+#txtArt01
+{
+	position: relative;
+	bottom: 80px;
+	left: 50px;
+	text-align: center;
+}
+
+#persona
+{
+	margin-left: 80px;
+	height: 280px;
+	margin-top: 20px;
+}
+
+
+#secArt02
+{
+	border: 1px red solid;
+	background: #606060;
+	vertical-align: top;
+	height: 300px;
+	width: 400px;
+}
+
+#txtArt02
+{
+	text-align: center;
+
+	position: relative;
+	left: 50px;
+	top: 80px;
+}
+
+
+#footArt01
+{
+	background: #55aced;
+	width: 40%;
+}
+
+#twitter
+{
+	height: 20px;
+	width: 20px;
+}
+
+#txtFoot01
+{
+	position: relative;
+	text-align: center;
+}
+
+#footArt02
+{
+	background: #d1dccf;
+	width: 20%;
+
+}
+
+#footArt03
+{
+	background: #787777;
+	width: 30%
+
+}
+
+
+.blanco
+{
+	color: white;
+}
+
+.letraGrande
+{
+	font-size: 2em;
+}
+
+.letraMediana
+{
+	font-size: 1.5em;
+}
+
+.boton
+{
+	border-radius: 10px;
+	background: transparent;
+	border: 2px solid;
+	height: 20px;
+
+}
+
+.nito
+{
+	font-weight: bold;
+}
